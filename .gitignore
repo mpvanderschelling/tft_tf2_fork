@@ -1,0 +1,136 @@
+# Backup files
+*~
+*.bak
+
+# Draw.io
+~$*.bkp
+~$*.drawio.dtmp
+
+# VS-code
+.vscode/
+*.code-workspace
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+coverage_html_report/
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Ignore _autosummary generated files
+docs/source/_autosummary/
+!docs/source/_autosummary/.gitkeep
+_autosummary/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject/
+
+# Rope project settings
+.ropeproject
+
+
+# Hydra
+outputs/
+
+# Data
+data/
+notebooks/archive/
+notebooks/tutorials/Data/
+*.obj
+
+# But exclude the data modeul of f3dasm!
+!src/f3dasm/data/
+!tests/data/
+
+# Exclude obj files in tests folder
+!tests/*/*.obj
+
+*.lock
+
+# Exclude sphinx gallery files
+docs/source/auto_examples/
+docs/source/gen_modules/
+docs/source/sg_execution_times.rst
+
+outputs/
